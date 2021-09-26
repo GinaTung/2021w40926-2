@@ -11563,10 +11563,275 @@ fieldset:disabled .btn {
   }
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, .small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, .mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+}
+
+.header {
+  background: #AA0601;
+}
+
+.header .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container ul li h1 a, .header .container ul li .h1 a {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png");
+  width: 80px;
+  height: 49px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+}
+
+.header .container ul .nav li a {
+  text-decoration: none;
+  margin-left: 64px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+.banner {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true") no-repeat center center;
+  height: 840px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner span .banner-slognactive {
+  font-size: 36px;
+  color: #650300;
+}
+
+.banner span .banner-slogn {
+  font-size: 64px;
+  color: #650300;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+.footer {
+  background: #AA0601;
+  padding-bottom: 39px;
+  padding-top: 44px;
+}
+
+.footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-top .footer-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.footer .footer-top .footer-list ul li a {
+  text-decoration: none;
+  margin-right: 48px;
+  color: white;
+  line-height: 1.5;
+}
+
+.footer .footer-top .footer-icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-top .footer-icon ul li {
+  margin-left: 32px;
+}
+
+.footer .footer-content ul {
+  border-bottom: 1px solid white;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.footer .footer-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-content ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 22px;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.footer .footer-content ul li img {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.footer .footer-bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.footer .footer-bottom ul li a {
+  text-decoration: none;
+  line-height: 1.5;
+  color: white;
+  font-size: 16px;
+}
+
+.footer .footer-bottom ul .footer-items {
+  font-size: 14px;
+}
+
+.footer .footer-bottom ul .footer-items a {
+  margin-left: 48px;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    max-width: 720px;
+  }
+  .footer .container .footer-top .footer-list ul li a {
+    margin-right: 40px;
+  }
+  .footer .container .footer-icon ul li {
+    margin-left: 24px;
+  }
+  .footer .container .footer-icon ul li a img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */

@@ -1,0 +1,99 @@
+.footer{
+    background:#AA0601;
+    padding-bottom: 39px;
+    padding-top: 44px;
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        
+        .footer-list ul{
+            display: flex;
+   
+            margin-bottom: 36px;
+            li a{
+                text-decoration: none;
+                margin-right: 48px;
+                color: white;
+                line-height: 1.5;
+            }
+        }
+        .footer-icon ul{
+            display: flex;
+            li{
+                margin-left: 32px;
+            }
+        }
+    }
+    .footer-content ul{
+        border-bottom: 1px solid white;
+        padding-bottom: 24px;
+        margin-bottom: 32px;
+     li{
+        display: flex;
+        align-items: center;
+
+           a{
+             text-decoration: none;
+             color: white;
+             margin-left: 22px;
+             font-size: 36px;
+            line-height: 1.5;
+
+             }
+         img{
+            display: block;
+            width: 36px;
+            height: 36px;
+
+            }
+        }
+    }
+    .footer-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        li a{
+            text-decoration: none;
+            line-height: 1.5;
+            color: white;
+            font-size: 16px;
+        }
+        .footer-items{
+            font-size: 14px;
+            a{
+                margin-left: 48px;
+            }
+        }
+    }
+}
+//平板
+@media (max-width: 768px) {
+    .footer{
+        .container{
+            max-width: 720px; 
+            .footer-top{
+                .footer-list ul li a{
+                    margin-right: 40px;
+        
+                }
+            }
+            .footer-icon ul li{
+                    margin-left: 24px;
+                    a img{
+                        width: 24px;
+                        height: 24px;
+                    }
+            }
+            
+          
+        }
+    }
+}
+
+  
+  //手機
+  @media (max-width: 375px) {
+    .container{
+      max-width: 375px; 
+    }
+  }

@@ -1,5 +1,36 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.banner{
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true") no-repeat center center;
+  height: 840px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  span{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    .banner-slognactive{
+      font-size: 36px;
+      color: #650300;
+    }
+    .banner-slogn{
+      font-size:64px;
+      color: #650300;
+      font-weight: bold;
+    }
+  }
+
+}
+//平板
+@media (max-width: 768px) {
+  .container{
+    max-width: 720px; 
+  }
+}
+//手機
+@media (max-width: 375px) {
+  .container{
+    max-width: 375px; 
+  }
 }

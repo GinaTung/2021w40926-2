@@ -11,49 +11,72 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <div class="header">
+      <div class="container">
+        <ul>
+          <li>
+            <h1><a href="#"></a></h1>
+          </li>
+          <li>
+              <ul class="nav">
+                <li><a href="#">系列鏡框</a></li>
+                <li><a href="#">門市據點</a></li>
+                <li><a href="#">部落格</a></li>
+                <li><a href="#">常見問題</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
 
     <%- contents %>
 
-    <footer class="footer">
-      footer
-    </footer>
-
+    <div class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-list">
+            <ul>
+              <li><a href="#">首頁</a></li>
+              <li><a href="#">系列鏡框</a></li>
+              <li><a href="#">門市據點</a></li>
+              <li><a href="#">部落格</a></li>
+              <li><a href="#">常見問題</a></li>
+            </ul>
+          </div>
+          <div class="footer-icon">
+            <ul>
+              <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-fb.svg" alt="FB"></a></li>
+              <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-ig.svg" alt="IG"></a></li>
+              <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-line.svg" alt="LINE"></a></li>
+            </ul>
+          </div> 
+        </div>
+        
+        <div class="footer-content">
+          <ul>
+            <li>
+              <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-phone.svg" alt="">
+              <a href="#">0800-000-000</a>
+            </li>
+            <li>
+              <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-mail.svg" alt="">
+              <a href="#">glasses@business.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <ul>
+            <li><a href="#">Copyright © 2020 Glasses.All rights reserved.</a></li>
+            <li class="footer-items">
+              <a href="#">隱私權政策</a>
+              <a href="#">服務條款</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+     
+    </div>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

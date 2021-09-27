@@ -11707,6 +11707,169 @@ table {
   font-weight: bold;
 }
 
+.product-service {
+  background: #FBF2F2;
+  line-height: 1.5;
+  padding-top: 60px;
+}
+
+.product-service .container .slogan-title {
+  font-size: 48px;
+  color: #650300;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.product-service .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 80px;
+}
+
+.product-service .container ul .service-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 15px;
+  max-width: 255px;
+  height: 230px;
+}
+
+.product-service .container ul .service-card img {
+  display: block;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+.product-service .container ul .service-card .title {
+  padding-top: 24px;
+  font-size: 24px;
+  color: #650300;
+  font-weight: bold;
+}
+
+.product-service .container ul .service-card .glass-img {
+  margin-bottom: 24px;
+}
+
+.product-service .container ul .service-card p {
+  font-size: 16px;
+}
+
+.glass-active {
+  line-height: 1.5;
+  padding-top: 60px;
+}
+
+.glass-active .container .slogan-title {
+  font-size: 48px;
+  color: #650300;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.glass-active .container .active .active-card {
+  margin-bottom: 32px;
+}
+
+.glass-active .container .active .active-card ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.glass-active .container .active .active-card ul li .active-img {
+  max-width: 635px;
+  height: 320px;
+  display: block;
+}
+
+.glass-active .container .active .active-card ul li p {
+  font-size: 48px;
+  color: #650300;
+  font-weight: bold;
+}
+
+.glass-active .container .active .active-card ul li img {
+  display: block;
+  margin-left: 32px;
+  margin-right: 10px;
+}
+
+.spacial-active {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true") center center;
+  height: 705px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+}
+
+.spacial-active .container p {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.spacial-active .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spacial-active .container ul .img1 {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true") center center;
+  width: 540px;
+  height: 465px;
+  margin: 0 15px;
+  opacity: 0.5;
+}
+
+.spacial-active .container ul .img2 {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true") center center;
+  width: 540px;
+  height: 465px;
+  margin: 0 15px;
+  opacity: 0.5;
+}
+
+.spacial-active .container ul .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: 720px;

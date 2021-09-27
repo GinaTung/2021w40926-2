@@ -22,6 +22,140 @@
   }
 
 }
+
+.product-service{
+  background: #FBF2F2;
+  line-height: 1.5;
+  padding-top: 60px;
+
+  .container{
+    .slogan-title{
+      font-size: 48px;
+      color: #650300;
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 80px;
+      .service-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+        max-width: 255px;
+        height: 230px;
+
+        img{
+          display: block;
+          width: 100px;
+          height: auto;
+          text-align: center;
+        }
+        .title{
+          padding-top: 24px;
+          font-size: 24px;
+          color: #650300;
+          font-weight: bold;
+        }
+        .glass-img{
+          margin-bottom: 24px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+  
+    }
+    }
+   
+}
+
+.glass-active{
+  line-height: 1.5;
+  padding-top: 60px;
+  .container{
+    .slogan-title{
+      font-size: 48px;
+      color: #650300;
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+    .active{
+      .active-card{
+        margin-bottom: 32px;
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          li{
+            .active-img{
+              max-width: 635px;
+              height: 320px;
+              display: block;
+            }
+            p{
+              font-size: 48px;
+              color: #650300;
+              font-weight: bold;
+            }
+            img{
+              display: block;
+              margin-left: 32px;
+              margin-right: 10px;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+}
+.spacial-active{
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true")center center;
+  height: 705px;
+  max-width: 100%;
+  display: flex;
+  padding-top: 60px;
+  .container{
+    p{
+      color: white;
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+    ul{
+      display: flex;
+        .img1{
+          background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true")center center;
+          width: 540px;
+          height: 465px;
+          margin: 0 15px;
+          opacity: 0.5;
+        }
+
+        .img2{
+          background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true")center center;
+          width: 540px;
+          height: 465px;
+          margin: 0 15px;
+          opacity: 0.5;
+        }
+      .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    }
+  }
+
+}
 //平板
 @media (max-width: 768px) {
   .container{

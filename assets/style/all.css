@@ -11785,6 +11785,10 @@ table {
   font-weight: bold;
 }
 
+.glass-active .container .active {
+  margin-bottom: 80px;
+}
+
 .glass-active .container .active .active-card {
   margin-bottom: 32px;
 }
@@ -11868,6 +11872,56 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.customer-share {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.customer-share .container .slogan-title {
+  font-size: 48px;
+  color: #650300;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.customer-share .container .share-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.customer-share .container .share-content .share-card {
+  height: 462px;
+  max-width: 257px;
+  margin: 0 15px;
+  -webkit-box-shadow: 0px 2px 6px #00000029;
+          box-shadow: 0px 2px 6px #00000029;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.customer-share .container .share-content .share-card li img {
+  max-width: 100%;
+  height: 256px;
+  display: block;
+}
+
+.customer-share .container .share-content .share-card .card-p {
+  padding-top: 16px;
+}
+
+.customer-share .container .share-content .share-card .card-p p {
+  margin: 0 16px 8px 16px;
+  line-height: 1.5;
+}
+
+.customer-share .container .share-content .share-card .card-p .card-d {
+  background-position: left bottom;
+  display: block;
 }
 
 @media (max-width: 768px) {
